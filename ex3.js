@@ -20,8 +20,9 @@
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 
-for(let i=0; i<=muchos_peces.length; i++) {
+for(let i=0; i<= muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
     console.log("Pez siguiente: " + siguiente_pez)
 }
 
+/* Porque habia un <= y eso hace que se ejecute una vez mas despues de recorrer todos los elementos del array  */

@@ -14,7 +14,7 @@
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
   */
 
-  let pezPosicion2 = muchos_peces.indexOf("estrella")
+  let pezPosicion2 = muchos_peces.indexOf("Estrella")
   console.log("Estrella está en la posición: " + pezPosicion2)
 
-  
+  /* Porque "estrella" estaba en minusculas y no se encuentra en el array y javascript es un lenguaje que diferencia las mayusculas de las minusculas por lo tanto es mas propenso a errores como este */
